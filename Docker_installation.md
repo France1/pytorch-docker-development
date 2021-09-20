@@ -34,7 +34,7 @@ http://<server-ip-address>:8001/
 and paste the recovered token in the login page.
 
 ## Launch Tensorboard
-Tensorboard can only access files from a unique `runs` folder. Still, it is desirable to keep Tensorboard summary files that belong to different projects separated and not altogether in `runs`. One way to achieve this is to launch Tensorboard from different projects folders.
+Tensorboard can only access files from a unique `runs` folder. Still, it is desirable to keep Tensorboard summary files that belong to different projects separated, rather that mixing them inside `runs`. One way to achieve this is to launch Tensorboard from different projects folders.
 
 Move into the project folder to be monitored, then create a tmux session:
 ```
