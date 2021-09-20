@@ -20,11 +20,11 @@ in which:
 Recover jupyter notebook token
 - a) from outside container
 ```
-docker container logs --follow nvidia-jupyter-tensorboard-francesco
+docker container logs --follow nvidia-jupyter-tensorboard-container
 ````
 - b) from inside container
 ```
-docker container exec -it nvidia-jupyter-tensorboard-francesco bash
+docker container exec -it nvidia-jupyter-tensorboard-container bash
 jupyter notebook list
 ````
 Access jupyter server from:
